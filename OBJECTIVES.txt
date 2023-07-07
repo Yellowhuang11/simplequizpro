@@ -18,7 +18,7 @@ Solution: Either wait for fix or manually install boilerplate.
 3.Setup Repository for first commit
 4.Page Routing
 5.Create Components - navbar
-6.Create Skeleton
+6.Create Skeleton - navbar
 7.Add props - navbar
 
 
