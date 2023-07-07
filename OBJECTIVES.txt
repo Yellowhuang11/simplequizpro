@@ -1,0 +1,24 @@
+Objectives: Simple quiz app. Apply everything in Front-end design.  Store question in Json file, use app to read file, let user to choose the correct answer. Show correct score at the end.
+
+5 Jul to 6 Jul
+
+1.Setup Nextjs boilerplate
+2.Setup Repository
+3.Add component to index.tsx
+
+Problem: Nextjs bug. Encountered error "Cannot use import statement outside a module".
+
+Solution: Either wait for fix or manually install boilerplate.
+
+
+7 Jul
+
+1.Setup Nexjs boilerplate
+2.Add component to index.tsx
+3.Setup Repository for first commit
+4.Page Routing
+5.Create Components - navbar
+6.Create Skeleton
+7.Add props - navbar
+
+
