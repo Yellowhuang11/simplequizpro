@@ -1,14 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Button } from 'antd'
 import Navbar from '@/components/navbar'
-import Skeleton from '@/components/Skeleton'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home(props: any) {
   return (
     <>
       <Head>
@@ -19,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
 
-      <div style={{width: '110%'}}><Skeleton /></div>
+      <div style={{width: '110%'}}><Navbar state={["home"]}/></div>
       </main>
     </>
   )

@@ -1,8 +1,7 @@
-
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Skeleton from '@/components/Skeleton'
+import Navbar from '@/components/navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +16,7 @@ export default function aboutus() {
         </Head>
         <main className={`${styles.main} ${inter.className}`}>
   
-        <div style={{width: '110%'}}><Skeleton /></div>
+        <div style={{width: '110%'}}><Navbar state={["aboutus"]}/></div>
         </main>
       </>
     )
