@@ -27,13 +27,16 @@ const items: MenuProps['items'] = [
       },
 ];
 
-const Navbar: React.FC = () => {
+interface Props {
+  state: string[]
+}
+
+const Navbar: React.FC<Props> = (props) => {
   const [current, setCurrent] = useState('home');
   const router = useRouter();
 
   const onClick: MenuProps['onClick'] = (e) => {
-    setCurrent(e.key);
-
+    
     if(e.key === "home"){
       router.push("/")
     }
@@ -50,9 +53,11 @@ const Navbar: React.FC = () => {
       router.push("/contactus")
     }
 
+    setCurrent(e.key)
+
   };
 
-  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
+  return <Menu onClick={onClick} selectedKeys={props.state} mode="horizontal" items={items} />;
 };
 
 export default Navbar;
