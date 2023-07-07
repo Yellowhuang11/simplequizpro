@@ -17,7 +17,7 @@ Solution: Either wait for fix or manually install boilerplate.
 2.Add component to index.tsx
 3.Setup Repository for first commit
 4.Page Routing
-5.Create Components - navbar
+5.Create Components - navbar, form
 6.Create Skeleton - navbar
 7.Add props - navbar
 
